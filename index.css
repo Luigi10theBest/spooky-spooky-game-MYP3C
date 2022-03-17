@@ -1,0 +1,11 @@
+body{
+    background-image: url(IMG_1871.PNG);
+    background-size: cover;
+    min-height: 100vh;
+  }
+
+  .initial-button{
+      position: absolute;
+      top: 50%;
+      left: 45%;
+  }
