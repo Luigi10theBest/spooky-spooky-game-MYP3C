@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>level 1</title>
+    <link rel="stylesheet" href="part2.css">
+</head>
+<body>
+    <div class="mr.skel">
+        <img src="images/Halloween_Skeleton_PNG_Clip_Art_Image.png" class="skeleton">
+        
+    </div>
+    <div class="text">
+        
+        hello
+        <span class="name-part"></span>
+    </div>
+    <a href="part3.html">continue</a>
+
+    <script>
+        const name  = prompt("Whats's your name")
+        localStorage.setItem('game_name', name)
+        const nameEl = document.querySelector('.name-part')
+        nameEl.innerHTML = localStorage.getItem('game_name')
+    </script>
+</body>
+</html>

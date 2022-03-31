@@ -1,0 +1,30 @@
+body{
+    background-image: url('images/1481576.jpg');
+    background-size: cover;
+    min-height: 100vh;
+  }
+  
+  .text{
+    position:absolute;
+    background-image: url('images/luigi-è-bravo.png');
+    width: 250px;
+    left:50%;
+    top:30%;
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    }
+  
+  .skeleton{
+  position:absolute;
+  width: 500px;
+  left:25%;
+  top:40%;
+  }
+  
+  
