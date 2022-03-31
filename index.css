@@ -4,8 +4,10 @@ body{
     min-height: 100vh;
   }
 
-  .initial-button{
+  .btn-huge-text{
       position: absolute;
       top: 50%;
-      left: 45%;
+      left: 43%;
+      font-size: 55px;
   }
+
